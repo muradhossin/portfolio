@@ -1,0 +1,236 @@
+.bo {
+  font-size: 16px;
+  
+  background-image: url("test.jpeg");
+}
+
+.hed {
+    
+    img-position: center ; 
+    
+}
+
+.container {
+  box-shadow: 0 0 0px #3F0C1F;
+  border: 0px solid #3F0C1F;
+ 
+}
+
+#about, #edu, #ski, #exp, #lea, #hob {
+  height: 300px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+#about:hover, #edu:hover, #ski:hover, #exp:hover, #lea:hover, #hob:hover, #button:hover, #backbut:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+#about {
+  background: url('profile.png') no-repeat;
+  background-position: center;
+}
+#edu {
+  background: url('edu.png') no-repeat;
+  background-position: center;
+}
+#ski {
+  background: url('ski.png') no-repeat;
+  background-position: center;
+}
+#exp{
+  background: url('exp.png') no-repeat;
+  background-position: center;
+}
+#lea {
+  background: url('lea.png') no-repeat;
+  background-position: center;
+}
+#hob{
+  background: url('hob.png') no-repeat;
+  background-position: center;
+}
+#about span, #edu span, #ski span, #exp span, #lea span, #hob span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+#button{
+    color : white;
+    background-color: #217f7f;
+    padding: 13px 42px 13px 42px;
+    border-radius: 20px;
+    text-decoration: none;
+    
+ }
+ #backbut{
+    color : white;
+    background-color: #4D5C84;
+    padding: 4px 20px 4px 20px;
+    border-radius: 60px;
+    text-decoration: none;
+    
+ 
+ 
+ }
+ .b{
+     text-align: right;
+ }
+ .fot{
+     text-align: center;
+ }
+ .col{
+ background-color: #3A61CA;
+  color: #CDEF5D;
+ }
+ 
+ .text{
+        
+        font-size: 20px;
+        text-align:  justify;
+        font-family: "Times New Roman",Times, serif;
+        padding: 10px;
+       
+
+}
+ .qut{
+     font-size: 20px;
+     text-align:  justify;
+     font-style: oblique;
+     padding: 10px;
+ }
+ h5{
+   text-align: right;
+  
+ }
+ .ssc{
+ 
+         font-size: 20px;
+        text-align:  justify;
+        font-family: "Times New Roman", Times, serif;
+          padding: 10px;
+        
+ 
+ }
+ .hh{
+ 
+    text-align: center;
+     padding: 5px;
+     background-color: #33cccc;
+     color: #d6e0f5;
+     border-radius: 20px;
+
+ 
+ }
+ .sk{
+ 
+     font-family: "Times New Roman", Times, serif;
+     text-align: center;
+     padding: 3px;
+     border-radius: 10px;
+ 
+ border-bottom: 6px solid red;
+  background-color: lightgrey;
+ 
+ }
+ ul.a {
+         text-align:  justify;
+        font-size: 22px;
+         
+        
+        font-family: "Times New Roman", Times, serif;
+        
+        
+ 
+         list-style-type: circle;
+ 
+ 
+ }
+ 
+ 
+ 
+ .leds{
+ 
+       
+           padding: 10px;
+        font-family: "Times New Roman", Times, serif;
+       
+        
+ 
+ }
+ .bbb{
+ 
+         
+        font-size: 20px;
+         
+        
+        font-family: "Times New Roman", Times, serif;
+        
+        
+ 
+         list-style-type: circle;
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  
+   
+  }
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+  }
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
+  
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+    
+  }
+ 
+  .hed {
+  width: 360px;
+  margin: 0 auto 15px;
+  }
+  #about, #edu, #exp, #ski, #lea, #hob {
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+   
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+
+  .hed {
+  width: 360px;
+  margin: 0 auto 15px;
+  }
+
+  #about, #edu, #exp, #ski, #lea, #hob {
+    width: 280px;
+    margin: 0 auto 15px;
+  }
+ }
+
+
